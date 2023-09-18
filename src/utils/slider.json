@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Aliva Priva Jardin",
+    "price": "47,043",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "../../public/images/estat1.jpg"
+  },
+  {
+    "name": "Asatti Garden City",
+    "price": "66,353",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "../../public/images/estat2.jpg"
+  },
+  {
+    "name": "Citralan Puri Serang",
+    "price": "35,853",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "../../public/images/estat3.jpg"
+  },
+  {
+    "name": "Aliva Priva Jardin",
+    "price": "47,043",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "../../public/images/estat4.jpg"
+  },
+  {
+    "name": "Asatti Garden City",
+    "price": "66,353",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "../../public/images/estat5.jpg"
+  },
+  {
+    "name": "Citralan Puri Serang",
+    "price": "35,853",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "../../public/images/estat6.jpg"
+  }
+]

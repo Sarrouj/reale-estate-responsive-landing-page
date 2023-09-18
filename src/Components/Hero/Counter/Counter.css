@@ -1,0 +1,22 @@
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number .counter{
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.number >.flexCenter {
+    gap: 0.1rem;
+}
+
+.number .flexCenter > span{
+    font-size: 2rem;
+    font-weight: 400;
+}
+

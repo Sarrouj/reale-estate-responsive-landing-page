@@ -1,0 +1,18 @@
+
+.b-wrapper .container{
+    justify-content: space-around;
+    padding: 4rem 0;
+}
+
+.b-wrapper .container >:first-child{
+    width: 15rem;
+}
+.b-wrapper .container >:nth-child(2){
+    width: 8rem;
+}
+.b-wrapper .container >:nth-child(3){
+    width: 15rem;
+}
+.b-wrapper .container >:last-child{
+    width: 10rem;
+}

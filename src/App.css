@@ -1,0 +1,14 @@
+.app-wrapper{
+    position: relative;
+}
+
+.app-wrapper >.shadow{
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    background: rgba(255, 255, 255, 0.223);
+    filter: blur(100px);
+    border-radius: 50%;
+    top: 1rem;
+    left:2rem;
+}

@@ -1,0 +1,22 @@
+.h-wrapper{
+    background-color: #131110;
+    padding: 0.8rem 1.4rem;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+.header .logo{
+    width: 8rem;
+}
+
+.header .logo > img{
+    width: 100%;
+}
+
+.links > span{
+    margin-right: 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+}

@@ -1,0 +1,76 @@
+:root{
+  --primaryColor: #3698a6;
+  --lightBlue:#C1F4FC;
+  --secondaryColor: #FFA500;
+  --mainColor:#b6b6b6;
+  --orange-gradient : linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+  --shadow : 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.primaryText{
+  color: var(--primaryColor);
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.secondaryText{
+  color: var(--secondaryColor);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.mainText{
+  color: var(--mainColor);
+  font-weight: 400;
+}
+
+.button{
+  background: rgb(54,152,166);
+  background: linear-gradient(106deg, rgba(54,152,166,1) 0%, rgba(122,203,165,1) 100%);
+  border: none;
+  color: white;
+  padding: 0.7rem 1.6rem;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all .4s ease-in-out;
+}
+
+.button:hover{
+  transform: scale(1.1);
+}
+
+.imageContainer{
+  height: 35rem;
+  width: 30rem;
+  border-radius: 45% 45% 0 0;
+  border: 8px solid #EAEAEA;
+  overflow: hidden;
+  margin: auto;
+  object-fit: center;
+  position: relative;
+}
+
+.container{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  color: var(--primaryColor);
+}

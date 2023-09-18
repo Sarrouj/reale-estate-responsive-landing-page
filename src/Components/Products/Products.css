@@ -1,0 +1,116 @@
+.p-wrapper{
+    margin-top: 3rem;
+    padding: 2rem;
+    position: relative;
+}
+
+.products{
+    position: static;
+    overflow: visible;
+}
+.product-container{
+    flex-direction: column;
+    padding: 1.5rem;
+    max-width: fit-content;
+    border-radius: 20px;
+    gap: 0.5rem;
+    transition: .3s ease-in;
+}
+
+.product-container:hover{
+    transform: scale(1.025);
+    background: rgb(54,152,166);
+    background: linear-gradient(0deg, rgba(54,152,166,0.4822303921568627) 0%, rgba(255,215,0,0) 100%);
+}
+
+.swiper{
+    position: static !important;
+    overflow: visible;
+}
+
+.swiper-horizontal{
+    overflow: visible;
+}
+
+.swiper-wrapper{
+    padding: 1rem;
+    position: static;
+}
+
+.swiper-slide{
+    overflow: visible;
+    z-index: 2;
+    padding: 0.2rem;
+    position: static;
+}
+
+.product-container .image-container{
+    width: 15rem;
+    height: 11.5rem;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.product-container .image-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-container .text-container{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.product-container .text-container .price > .number{
+    font-weight: 800;
+    font-size: 1.3rem;
+    color:  #8E8D8D;
+}
+
+.product-container .product-title{
+    font-size: 1.4rem;
+}
+
+.product-container .description{
+    font-size: 0.7rem;
+    color: #8E8D8D;
+}
+
+/* next prev btn */
+
+.btn{
+    display: flex;
+    gap: 0.5rem;
+    position: absolute;
+    top: 6.5rem;
+    right:8rem;
+}
+
+.btn .icon{
+    color: var(--primaryColor);
+    font-weight: 800;
+}
+
+.btn .btnNext{
+    border: none;
+    height: 2.2rem;
+    width: 2.3rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+    color: var(--primaryColor);
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+
+
+.btn .btnPrev{
+    border: none;
+    height: 2.2rem;
+    width: 2.3rem;
+    background-color:#8deaf98b;
+    border-radius: 5px;
+    line-height: 0.1rem;
+}

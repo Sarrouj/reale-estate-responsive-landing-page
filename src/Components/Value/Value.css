@@ -1,0 +1,72 @@
+.v-container {
+  gap: 7rem;
+}
+
+/* left Side */
+.leftSide{
+    margin-left: 2rem;
+}
+
+.imageContainer > .villa {
+  height: 100%;
+}
+
+/* Right Side */
+.rightSide .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion{
+    margin-top: 2rem !important;
+    border: none !important;
+    width: 37rem;
+}
+
+.accordionItem{
+    background-color: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.accordionItem.expanded{
+    box-shadow: var(--shadow);
+}
+
+.accordionButton{
+    background: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.v-heading {
+  justify-content: space-between;
+}
+
+.v-heading > .primaryText {
+  font-size: 1rem;
+}
+
+.v-icon {
+  height: 2rem;
+  width: 2.2rem;
+  background-color: var(--lightBlue);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primaryColor);
+}
+
+.accordion__button:before{
+    display: none !important;
+}
+
+.v-detail{
+    font-size: 1rem !important;
+}
