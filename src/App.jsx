@@ -5,6 +5,7 @@ import Brands from "./Components/Brands/Brands";
 import Products from "./Components/Products/Products";
 import Value from "./Components/Value/Value";
 import Contact from "./Components/Contact/Contact";
+import GetStarted from "./Components/GetStarted/GetStarted";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Products />
       <Value/>
       <Contact/>
+      <GetStarted/>
     </>
   );
 }

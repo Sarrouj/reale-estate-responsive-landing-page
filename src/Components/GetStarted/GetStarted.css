@@ -1,0 +1,37 @@
+.G-wrapper{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.getStarted {
+    width: 95%;
+    height: 16.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    background: var(--primaryColor);
+    border-radius: 18px;
+    border: 6px solid var(--lightBlue);
+}
+
+.getStarted-title{
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+}
+
+.G-detail{
+    color: #d6d6d6 !important;
+    margin-bottom: 0.2rem;
+}
+
+.G-button{
+    border: 2px solid white !important;
+    border-radius: 10px !important;
+    width: 12rem;
+}
