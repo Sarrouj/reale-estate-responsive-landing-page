@@ -4,7 +4,8 @@ import "swiper/css";
 import data from "../../utils/slider.json";
 import { useSwiper } from "swiper/react";
 import { GrFormNext } from 'react-icons/gr';
-import { GrFormPrevious } from 'react-icons/gr'
+import { GrFormPrevious } from 'react-icons/gr';
+import { sliderSettings } from '../../utils/common';
 
 // eslint-disable-next-line react/prop-types
 const SwiperButton = () => {
@@ -32,7 +33,7 @@ const Products = () => {
           <p className="primaryText">Popular Residencies</p>
         </div>
         <div className="products">
-          <Swiper slidesPerView={4}>
+          <Swiper {...sliderSettings}>
             <SwiperButton />
             {data.map((card, index) => (
               <SwiperSlide key={index}>

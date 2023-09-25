@@ -16,3 +16,46 @@
 .b-wrapper .container >:last-child{
     width: 10rem;
 }
+
+/* Responsive */
+
+@media (max-width : 450px){
+    .b-wrapper > div {
+        gap: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 2.5rem 0 !important;
+    }
+
+    .b-wrapper .container >:first-child{
+        display: none;
+    }
+    .b-wrapper .container >:nth-child(2){
+        display: none;
+    }
+    .b-wrapper .container >:nth-child(3){
+        width: 10rem;
+        /* margin-right: 1rem; */
+    }
+    .b-wrapper .container >:last-child{
+        width: 7rem;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width : 1200px){
+    .b-wrapper .container >:first-child{
+        width: 10rem;
+    }
+    .b-wrapper .container >:nth-child(2){
+        width: 6rem;
+    }
+    .b-wrapper .container >:nth-child(3){
+        width: 10rem;
+    }
+    .b-wrapper .container >:last-child{
+        width: 7.5rem;
+    }
+}

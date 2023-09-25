@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 4rem 2rem;
+}
+
+/* Left Side */
+.f-leftSide > .f-logo{
+    width: 10rem;
+}
+
+.f-logo > img{
+    width: 100%;
+}
+
+/* Left Side */
+
+.f-leftSide > p{
+    margin-left: 1.8rem;
+    font-size: 1rem;
+}
+
+.f-rightSide > ul {
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.f-rightSide > ul > li {
+    font-weight:    400;
+}

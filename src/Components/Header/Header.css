@@ -1,10 +1,10 @@
 .h-wrapper{
-    background-color: #131110;
     padding: 0.8rem 1.4rem;
 }
 
 .header{
     justify-content: space-between;
+    position: relative;
 }
 
 .header .logo{
@@ -19,4 +19,78 @@
     margin-right: 2rem;
     font-weight: 500;
     font-size: 1rem;
+}
+
+.menu{
+    display: none;
+}
+
+/* Responsive */
+
+@media (max-width : 1300px){
+    .menu{
+        color: white;
+        display: block;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap: 2rem;
+        position: absolute;
+        top: 30px;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 10px;
+        right: 0;
+        z-index: 2;
+    }
+
+    .links > .mainText{
+        color: black;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .links.close{
+        right: -20rem;
+    }
+
+    .h-wrapper{
+        padding: 0.8rem 0;
+    }
+
+    .logo{
+        padding-right: 2rem;
+    }
+}
+
+@media (max-width : 450px){
+    .links{
+        padding: 0rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .links > span{
+        font-weight: 500;
+        font-size: .8rem;
+        width:  8rem;
+        padding-left: 0 !important;
+        margin: 0;
+        
+    }
+
+    .links > button {
+        width: 5rem;
+        height: 2rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: .9rem;
+    }
 }

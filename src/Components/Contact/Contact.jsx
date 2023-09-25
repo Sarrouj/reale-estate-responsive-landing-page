@@ -12,8 +12,7 @@ const Contact = () => {
             <span className="primaryText">Easy To Contact Us</span>
             <span className="mainText">
               We always ready to help by providing the best services beleive a
-              good place to live <br />
-              can make your life better
+              good place to live can make your life better
             </span>
           </div>
           <div className="cols-container">

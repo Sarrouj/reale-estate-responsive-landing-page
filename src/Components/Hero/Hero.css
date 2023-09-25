@@ -1,6 +1,6 @@
 .hero-wrapper{
     background-color: #131110;
-    height: 50vw;
+    padding-bottom: 4rem;
 }
 
 .hero-wrapper .container{
@@ -64,6 +64,10 @@
     gap: 1.2rem;
 }
 
+.mainText{
+    max-width:  30rem;
+}
+
 /* Right Side */
 
 .rightSide{
@@ -76,4 +80,91 @@
     margin: auto;
     position: absolute;
     top: -100px;
+}
+
+/* Responsive */
+
+@media (max-width : 1400px){
+    .hero-wrapper .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px){
+    .rightSide .imageContainer{
+        width: 25rem;
+        height: 30rem;
+    }
+
+    .leftSide{
+        gap: 1.5rem;
+        margin-top: 80px;
+    }
+    .leftSide > .title > p {
+        font-size: 3rem;
+        line-height: 3.8rem;
+    }
+
+    .title::before{
+        width: 3rem;
+        height: 3rem;
+        left: 40%;
+    }
+
+    .searchBar{
+        width: 24rem;
+        padding: 1.7rem 1rem;
+    }
+    
+    .searchBar > button {
+        height: 2.3rem;
+    }
+
+    .mainText{
+        max-width:  25rem;
+    }
+
+}
+
+@media (max-width : 1000px){
+    .rightSide{
+        display: none;
+    }
+
+    .hero-wrapper .container{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width : 450px){
+    .hero-wrapper .container{
+        width: 90%;
+    }
+
+    .leftSide > .title > p {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        z-index: 10;
+    }
+
+    .title::before{
+        width: 2rem;
+        height: 2rem;
+        left: 38%;
+        top: -5px;
+    }
+
+    .text > .mainText{
+        font-size: .8rem;
+    }
+
+    .searchBar{
+        display:none !important; 
+    }
+
+    .numbers{
+        display: none !important;
+    }
+
 }

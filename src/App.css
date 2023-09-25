@@ -1,5 +1,7 @@
 .app-wrapper{
     position: relative;
+    background-color: #131110;
+    overflow: hidden;
 }
 
 .app-wrapper >.shadow{

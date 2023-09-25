@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
           <div className="text">
             <p className="mainText">
-              Find a variety of properties that suit you very easilty <br />
+              Find a variety of properties that suit you very easilty
               Forget all difficulties in finding a residence for you
             </p>
           </div>
