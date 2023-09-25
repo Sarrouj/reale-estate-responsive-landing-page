@@ -29,3 +29,10 @@
 .f-rightSide > ul > li {
     font-weight:    400;
 }
+
+
+@media(max-width : 1200px){
+    .footer{
+        display: none;
+    }
+}

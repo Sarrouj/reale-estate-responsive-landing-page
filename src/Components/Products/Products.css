@@ -130,8 +130,7 @@
         background-color: #131110;
     }
     .btn{
-        top : 4rem;
-        right: 4.5rem;
+        display: none;
     }
 
 }
@@ -158,13 +157,10 @@
     .product-container{
         max-width: 18rem !important;
         padding: 1.7rem 0 1rem 0;
-        margin-left: .5rem;
         background-color: white;
     }
 
     .btn{
-        top: 30rem !important;
-        right: 9rem;
-        z-index: 1;
+        display: none;
     }
 }

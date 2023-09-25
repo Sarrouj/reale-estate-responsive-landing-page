@@ -35,3 +35,9 @@
     border-radius: 10px !important;
     width: 12rem;
 }
+
+@media(max-width : 1200px){
+    .G-wrapper{
+        display: none;
+    }
+}
