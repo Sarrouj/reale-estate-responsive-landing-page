@@ -5,4 +5,4 @@ LuxEstate is a visually stunning and highly functional real estate landing page 
 
 ## Project URLs
 
-- **Live Project**: [View the Live Project](https://reale-estate-responsive-landing-page.vercel.app/)
+- **Live Project**: [View the Live Project]([https://reale-estate-responsive-landing-page.vercel.app/](https://fluffy-shortbread-03a173.netlify.app/))
