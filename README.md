@@ -1,8 +1,8 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# LuxEstate: Stunning Real Estate Landing Page
 
-Currently, two official plugins are available:
+LuxEstate is a visually stunning and highly functional real estate landing page designed to captivate potential buyers and sellers. Our goal is to provide a seamless and engaging user experience, showcasing properties in the most attractive way possible. This landing page is built using the latest web technologies to ensure top-notch performance and responsiveness across all devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project URLs
+
+- **Live Project**: [View the Live Project](https://reale-estate-responsive-landing-page.vercel.app/)
